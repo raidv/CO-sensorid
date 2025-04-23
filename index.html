@@ -18,8 +18,8 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            align-items: center;
-            gap: 20px;
+            align-items: flex-start;
+            gap: 30px;
         }
         .image-container {
             flex: 3;
@@ -27,16 +27,31 @@
         }
         .info-container {
             flex: 1;
-            text-align: left;
             padding: 20px;
             background-color: #f5f5f5;
             border-radius: 8px;
             font-size: 1.1em;
             min-width: 250px;
         }
+        .logos-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .logo {
+            max-height: 60px;
+            width: auto;
+        }
         img { 
             max-width: 100%; 
             height: auto;
+            border: 1px solid #ddd;
+        }
+        .heatmap {
+            border: 1px solid #ddd;
         }
         .timestamp {
             text-align: center;
@@ -47,13 +62,15 @@
             margin-top: 0;
             border-bottom: 1px solid #ddd;
             padding-bottom: 8px;
+            font-size: 1.2em;
         }
         ul {
             list-style-type: none;
             padding-left: 0;
+            margin-top: 15px;
         }
         li {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             padding-left: 0;
         }
     </style>
@@ -62,22 +79,25 @@
     <h1>TRIXS vingugaasi seire 26.04.2025</h1>
     
     <div class="container">
-
         <div class="image-container">
-            <img src="sensor_heatmap_latest.png?t=1745405623841" alt="Sensor Heatmap">
-            <p class="timestamp">Viimane uuendus: 23.04.2025 10:53:43</p>
+            <img class="heatmap" src="sensor_heatmap_latest.png?t=1745406824237" alt="Sensor Heatmap">
+            <p class="timestamp">Viimane uuendus: 23.04.2025 11:13:44</p>
         </div>
-        
         
         <div class="info-container">
             <h3>WHO soovitused (2010) vingugaasi keskkonnas viibimiseks</h3>
             <ul>
-                <li><strong>0 ppm</strong> - ohutu keskkond</li>
+                <li><strong>0 ppm</strong> - Ohutu keskkond</li>
                 <li><strong>6 ppm</strong> - kuni 24 h</li>
                 <li><strong>9 ppm</strong> - kuni 8 h</li>
                 <li><strong>30 ppm</strong> - kuni 1 h</li>
                 <li><strong>90 ppm</strong> - kuni 15 min</li>
             </ul>
+            
+            <div class="logos-container">
+                <img class="logo" src="G4_S_Eesti_logo_7f2ac91d4c.png" alt="G4S Logo">
+                <img class="logo" src="KVARK_must_kollane.png" alt="KVARK Logo">
+            </div>
         </div>
     </div>
 </body>
