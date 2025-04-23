@@ -1,17 +1,81 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-        <title>Vingugaasi seire</title>
-        <meta http-equiv="refresh" content="120"> <!-- Auto-refresh every 2 minutes -->
-        <style>
-            body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-            img { max-width: 100%; }
-        </style>
-    </head>
-    <body>
-        <h1>TRIXS vingugaasi seire 26.04.2025</h1>
-        <img src="sensor_heatmap_latest.png?t=1745403416271" alt="Sensor Heatmap">
-        <p>Viimane uuendus: 23.04.2025 10:16:56</p>
-    </body>
-    </html>
+<html>
+<head>
+    <title>Vingugaasi seire</title>
+    <meta http-equiv="refresh" content="120"> <!-- Auto-refresh every 2 minutes -->
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 { 
+            text-align: center; 
+            margin-bottom: 30px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .image-container {
+            flex: 1;
+            min-width: 300px;
+        }
+        .info-container {
+            flex: 0 0 250px;
+            text-align: left;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }
+        img { 
+            max-width: 100%; 
+            height: auto;
+            border: 1px solid #ddd;
+        }
+        .timestamp {
+            text-align: center;
+            margin-top: 10px;
+            color: #666;
+        }
+        h3 {
+            margin-top: 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>TRIXS vingugaasi seire 26.04.2025</h1>
     
+    <div class="container">
+        <div class="image-container">
+            <img src="sensor_heatmap_latest.png?t=1745404828260" alt="Sensor Heatmap">
+            <p class="timestamp">Viimane uuendus: 23.04.2025 10:40:28</p>
+        </div>
+        
+        <div class="info-container">
+            <h3>WHO soovitused (2010) vingugaasi keskkonnas viibimiseks</h3>
+            <ul>
+                <li><strong>0 ppm</strong> - Ohutu keskkond</li>
+                <li><strong>6 ppm</strong> - kuni 24 h</li>
+                <li><strong>9 ppm</strong> - kuni 8 h</li>
+                <li><strong>30 ppm</strong> - kuni 1 h</li>
+                <li><strong>90 ppm</strong> - kuni 15 min</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
