@@ -1,0 +1,182 @@
+{
+  "data": {
+    "location": {
+      "hardwares": [
+        {
+          "id": "5408",
+          "name": "CO andur 01",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:30:15Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5409",
+          "name": "CO andur 02",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:30:05Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5410",
+          "name": "CO andur 03",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:24:32Z",
+              "name": "CO",
+              "value": 220
+            }
+          ]
+        },
+        {
+          "id": "5411",
+          "name": "CO andur 04",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:30:35Z",
+              "name": "CO",
+              "value": 180
+            }
+          ]
+        },
+        {
+          "id": "5412",
+          "name": "CO andur 05",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:32:16Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5413",
+          "name": "CO andur 06",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:32:16Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5414",
+          "name": "CO andur 07",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:30:15Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5415",
+          "name": "CO andur 08",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:31:16Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5416",
+          "name": "CO andur 09",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T12:58:13Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5417",
+          "name": "CO andur 10",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-23T09:57:21Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5418",
+          "name": "CO andur 11",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:30:15Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5419",
+          "name": "CO andur 12",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-23T09:57:21Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5420",
+          "name": "CO andur 13",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:32:06Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "id": "5421",
+          "name": "CO andur 14",
+          "hardwareType": "Sensor",
+          "reports": []
+        },
+        {
+          "id": "5422",
+          "name": "CO andur 15",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T13:32:26Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
