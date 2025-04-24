@@ -1,0 +1,188 @@
+{
+  "data": {
+    "location": {
+      "hardwares": [
+        {
+          "id": "5408",
+          "name": "CO andur 01",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:27:19Z",
+              "name": "CO",
+              "value": 248.9
+            }
+          ]
+        },
+        {
+          "id": "5409",
+          "name": "CO andur 02",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:25:58Z",
+              "name": "CO",
+              "value": 559
+            }
+          ]
+        },
+        {
+          "id": "5410",
+          "name": "CO andur 03",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:26:19Z",
+              "name": "CO",
+              "value": 542.2
+            }
+          ]
+        },
+        {
+          "id": "5411",
+          "name": "CO andur 04",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:25:58Z",
+              "name": "CO",
+              "value": 514.6
+            }
+          ]
+        },
+        {
+          "id": "5412",
+          "name": "CO andur 05",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:26:29Z",
+              "name": "CO",
+              "value": 667.4000000000001
+            }
+          ]
+        },
+        {
+          "id": "5413",
+          "name": "CO andur 06",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:26:08Z",
+              "name": "CO",
+              "value": 549.9
+            }
+          ]
+        },
+        {
+          "id": "5414",
+          "name": "CO andur 07",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:26:09Z",
+              "name": "CO",
+              "value": 583
+            }
+          ]
+        },
+        {
+          "id": "5415",
+          "name": "CO andur 08",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:25:57Z",
+              "name": "CO",
+              "value": 772
+            }
+          ]
+        },
+        {
+          "id": "5416",
+          "name": "CO andur 09",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:25:57Z",
+              "name": "CO",
+              "value": 366.70000000000005
+            }
+          ]
+        },
+        {
+          "id": "5417",
+          "name": "CO andur 10",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:26:08Z",
+              "name": "CO",
+              "value": 661.2
+            }
+          ]
+        },
+        {
+          "id": "5418",
+          "name": "CO andur 11",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:26:08Z",
+              "name": "CO",
+              "value": 1000
+            }
+          ]
+        },
+        {
+          "id": "5419",
+          "name": "CO andur 12",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:25:57Z",
+              "name": "CO",
+              "value": 570.4
+            }
+          ]
+        },
+        {
+          "id": "5420",
+          "name": "CO andur 13",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:26:09Z",
+              "name": "CO",
+              "value": 303.2
+            }
+          ]
+        },
+        {
+          "id": "5421",
+          "name": "CO andur 14",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:26:19Z",
+              "name": "CO",
+              "value": 253.3
+            }
+          ]
+        },
+        {
+          "id": "5422",
+          "name": "CO andur 15",
+          "hardwareType": "Sensor",
+          "reports": [
+            {
+              "createdAt": "2025-04-24T15:25:58Z",
+              "name": "CO",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
